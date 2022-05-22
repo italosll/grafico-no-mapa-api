@@ -12,6 +12,6 @@ createConnection();
 
 // console.log(process.env.JWT_SECRET_KEY);
 
-app.listen(4000, '0.0.0.0', () => {
-  console.log('🚀 Server runing on http://localhost:4000/');
+app.listen(3000, '0.0.0.0', () => {
+  console.log('🚀 Server runing on http://localhost:3000/');
 });
