@@ -1,3 +1,3 @@
 import { createConnection, Connection } from 'typeorm';
 
-const connection = await createConnection({ entities: './src/entities/*.ts' });
+const connection = await createConnection({ entities: [path.join(process.cwd(), './src/entities/*.ts,.js')] });
