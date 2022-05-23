@@ -76,19 +76,19 @@ export class Profile {
     @Column({ default: 0 })
     color_scheme_Quente:number;
 
-    @Column()
+    @Column({ default: 0 })
     fitness_bar:number;
 
-    @Column()
+    @Column({ default: 0 })
     fitness_line:number;
 
-    @Column()
+    @Column({ default: 0 })
     fitness_squared:number;
 
-    @Column()
+    @Column({ default: 0 })
     fitness_circ:number;
 
-    @Column()
+    @Column({ default: 0 })
     total_answers:number;
 
     @Column()
@@ -97,64 +97,64 @@ export class Profile {
     @Column()
     interval_age_of_profile: string;
 
-    @Column()
+    @Column({ default: 0 })
     bar_acc_amount: number;
 
-    @Column()
+    @Column({ default: 0 })
     line_acc_amount: number;
 
-    @Column()
+    @Column({ default: 0 })
     squared_acc_amount: number;
 
-    @Column()
+    @Column({ default: 0 })
     circ_acc_amount: number;
 
-    @Column()
+    @Column({ default: 0 })
     bar_acc_amount_3_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     bar_acc_amount_5_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     bar_acc_amount_7_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     line_acc_amount_3_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     line_acc_amount_5_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     line_acc_amount_7_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     squared_acc_amount_3_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     squared_acc_amount_5_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     squared_acc_amount_7_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     circ_acc_amount_3_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     circ_acc_amount_5_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     circ_acc_amount_7_sections: number;
 
-    @Column()
+    @Column({ default: 0 })
     quality_bar:number;
 
-    @Column()
+    @Column({ default: 0 })
     quality_line:number;
 
-    @Column()
+    @Column({ default: 0 })
     quality_squared:number;
 
-    @Column()
+    @Column({ default: 0 })
     quality_circ:number;
 }
 
